@@ -1,0 +1,100 @@
+#articulosprincipales {
+    flex: 1;
+    margin-right: 20px;
+    padding-top: 30px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+}
+article {
+    position: relative;
+    padding: 0px 40px 20px 40px;
+   }
+main {
+    display: flex;
+    justify-content: center; 
+    width: 96%;
+    padding: 2%; 	
+}
+main > div {
+    display: flex;
+    flex: 1;
+    max-width: 960px;  
+}
+article h1 {
+    margin-bottom: 5px;
+    font: bold 30px Arial, sans-serif;
+}
+article h2 {
+   font: bold 25px Arial, sans-serif;
+}
+h4 {
+   font:  16px Arial, sans-serif;
+   margin-block-start: 0.8em;
+    margin-block-end: 0.3em;
+}
+article p {
+    font: 19px Arial, sans-serif;
+}
+
+/* Estilos específicos del formulario */
+.containerr {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: none;
+  }
+  
+  .form-group input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input[type="submit"] {
+    background-color: #340F37;
+    color: #fff;
+    cursor: pointer;
+    
+  }
+  
+  .form-group input[type="submit"]:hover {
+    background-color: #340F37;
+    
+  }
+
+  /* Estilos de la imagen y la descripción */
+.contenido {
+  display: flex;
+  align-items: center;
+}
+
+.imagen {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.imagen img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.descripcion {
+  flex: 1;
+}
